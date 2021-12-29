@@ -165,3 +165,26 @@ header {
 i.fab.fa-bitbucket {
     color: #17b4cf;
 }
+
+
+/* ----------------------------project------------------------------------------- */
+
+.project {
+    margin-top: 150px;
+    width: 70%;
+}
+
+.project__title {
+    font-size: 45px;
+    line-height: 64px;
+    color: #12100C;
+}
+
+.project__text {
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #999795;
+}
