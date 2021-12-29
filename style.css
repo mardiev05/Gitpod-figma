@@ -7,6 +7,10 @@
     list-style: none;
 }
 
+body {
+    background: #f6f3f4;
+}
+
 .text--center {
     text-align: center;
     align-items: center;
@@ -71,8 +75,8 @@ header {
 }
 
 .header__btn:hover {
-    background: #fff;
-    color: #111;
+    background: rgb(48, 194, 238);
+    color: #fff;
 }
 
 .container {
@@ -81,3 +85,82 @@ header {
 
 
 /* -------------------------------Section---------------------------------------------- */
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__title {
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 85px;
+    color: #12100C;
+}
+
+.about__text {
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 32px;
+    color: rgba(18, 16, 12, 0.7);
+    margin-top: 30px;
+}
+
+.about__btn-card {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 15px 0;
+}
+
+.about__btn {
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 10%);
+    border-radius: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 35px;
+    font-size: 17px;
+    line-height: 22px;
+    margin-right: 20px;
+    background: #111;
+    text-align: center;
+    color: #fff;
+    transition: .3s ease-in;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    -ms-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+}
+
+.about__btn:hover {
+    background: rgb(48, 194, 238);
+    color: #fff;
+}
+
+.about__btn-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(18, 16, 12, 0.7);
+}
+
+.about__img-card {
+    width: 45%;
+}
+
+.about__img {
+    width: 100%;
+}
+
+.about__icons i {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.fab.fa-gitlab {
+    color: #d52323;
+}
+
+i.fab.fa-bitbucket {
+    color: #17b4cf;
+}
