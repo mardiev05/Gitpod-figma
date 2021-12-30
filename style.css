@@ -158,11 +158,11 @@ header {
     font-size: 20px;
 }
 
-.fab.fa-gitlab {
+.about__icons .fa-gitlab {
     color: #d52323;
 }
 
-i.fab.fa-bitbucket {
+.about__icons .fa-bitbucket {
     color: #17b4cf;
 }
 
@@ -408,4 +408,127 @@ i.fab.fa-bitbucket {
     width: 14%;
     padding: 10px 3%;
     margin-bottom: 35px;
+}
+
+
+/* ----------------------------------repository---------------------------- */
+
+.repository {
+    margin-top: 160px;
+}
+
+.repository__title {
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 72px;
+    text-align: center;
+    color: #12100C;
+    margin-bottom: 50px;
+}
+
+.repository__row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.repository__card {
+    text-align: center;
+    width: 45%;
+    background: #fff;
+    box-shadow: 3px 4px 15px #ccc;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.repository__card-title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #12100C;
+    margin-bottom: 10px;
+}
+
+.repository__card-text {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(18, 16, 12, 0.7);
+    margin-bottom: 50px;
+}
+
+.repository__btns {
+    margin-bottom: 50px;
+}
+
+.repository__btn {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background: #FC6D26;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 10%);
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border: none;
+    padding: 11px 50px 14px 30px;
+    margin-bottom: 20px;
+}
+
+.repository__btn .fab {
+    color: #fff;
+    font-size: 25px;
+    margin-right: 19px;
+}
+
+.repository__btn.black {
+    background: rgba(0, 0, 0, 1);
+}
+
+.repository__btn.blue {
+    background: rgba(38, 132, 255, 1);
+    padding: 11px 50px 14px 20px;
+}
+
+.repository__card-workspace {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    background: #F9F9F9;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 14px 16px;
+    box-shadow: 3px 4px 50px #ccc;
+}
+
+.workspace__img-card {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.workspace__text {
+    padding: 0 4%;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 20px;
+    color: rgba(18, 16, 12, 0.7);
+}
+
+.workspace__btn {
+    background: #12100C;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 10%);
+    border-radius: 12px;
+    border: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 7px 12px;
 }

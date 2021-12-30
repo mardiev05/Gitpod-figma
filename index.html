@@ -41,158 +41,252 @@
         <button class="header__btn">Login</button>
     </header>
 
-    <div class="container">
-        <!-- about -->
-        <div class="about">
-            <div class="about__content">
-                <h1 class="about__title">
-                    Always <br /> Ready to Code!!
-                </h1>
-                <p class="about__text">
-                    Spin up fresh, automated dev environments <br /> for each task, in the cloud, in seconds.
+    <section>
+        <div class="container">
+            <!-- about -->
+            <div class="about">
+                <div class="about__content">
+                    <h1 class="about__title">
+                        Always <br /> Ready to Code!!
+                    </h1>
+                    <p class="about__text">
+                        Spin up fresh, automated dev environments <br /> for each task, in the cloud, in seconds.
+                    </p>
+                    <div class="about__btn-card">
+                        <button class="about__btn">Try Now</button>
+                        <p class="about__btn-text">
+                            Open a workspace. <br /> Start from any Git context.
+                        </p>
+                    </div>
+                    <div class="about__icons">
+                        <i class="fab fa-gitlab"></i>
+                        <i class="fab fa-github"></i>
+                        <i class="fab fa-bitbucket"></i>
+                    </div>
+                </div>
+
+                <div class="about__img-card">
+                    <img class="about__img" src="images/about.png" alt="about" />
+                </div>
+            </div>
+
+            <!-- project -->
+            <div class="project text--center">
+                <h3 class="project__title">Select project,</h3>
+                <p class="project__text">check dependencies, checkout branch, view</p>
+                <p class="project__text">
+                    readme.txt, install tools, run build, run test,
                 </p>
-                <div class="about__btn-card">
-                    <button class="about__btn">Try Now</button>
-                    <p class="about__btn-text">
-                        Open a workspace. <br /> Start from any Git context.
+                <h3 class="project__title">start coding.</h3>
+            </div>
+
+            <!-- environments -->
+            <div class="environments">
+                <div class="environment__content">
+                    <h4 class="environments__title">
+                        Think CI/CD for dev environments
+                    </h4>
+                    <p class="environments__text">
+                        We invented prebuilds so application code, configuration and infrastructure can all be stored as machine-executable code in your git repositories and applied to dev environments automatically and continuously.
                     </p>
+                    <div class="environments__btns">
+                        <button class="environments__btn yellow">
+                More on prebuilds
+              </button>
+                        <button class="environments__btn pink">Documentation</button>
+                    </div>
                 </div>
-                <div class="about__icons">
-                    <i class="fab fa-gitlab"></i>
-                    <i class="fab fa-github"></i>
-                    <i class="fab fa-bitbucket"></i>
+                <div class="environments__img-card">
+                    <img class="environment__img" src="images/environments.png" alt="environments" />
                 </div>
             </div>
 
-            <div class="about__img-card">
-                <img class="about__img" src="images/about.png" alt="about" />
-            </div>
-        </div>
-
-        <!-- project -->
-        <div class="project text--center">
-            <h3 class="project__title">Select project,</h3>
-            <p class="project__text">check dependencies, checkout branch, view</p>
-            <p class="project__text">
-                readme.txt, install tools, run build, run test,
-            </p>
-            <h3 class="project__title">start coding.</h3>
-        </div>
-
-        <!-- environments -->
-        <div class="environments">
-            <div class="environment__content">
-                <h4 class="environments__title">Think CI/CD for dev environments</h4>
-                <p class="environments__text">
-                    We invented prebuilds so application code, configuration and infrastructure can all be stored as machine-executable code in your git repositories and applied to dev environments automatically and continuously.
+            <!-- design -->
+            <div class="design text--center">
+                <h3 class="design__title">Remote-first. Secure by design.</h3>
+                <img class="design__img" src="images/design.png" alt="Remote-first. Secure by design." />
+                <p class="design__text">
+                    You no longer need an over-powered laptop to code, Gitpod works just as smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes all source code and never stores it on insecure machines and networks.
                 </p>
-                <div class="environments__btns">
-                    <button class="environments__btn yellow">More on prebuilds</button>
-                    <button class="environments__btn pink">Documentation</button>
-                </div>
+                <ul class="design__btn-card">
+                    <li>
+                        <button class="design__btn">
+                <i class="fab fa-chrome"></i>Chrome Extension
+              </button>
+                    </li>
+                    <li>
+                        <button class="design__btn">
+                <i class="fab fa-firefox-browser"></i>Firefox Extension
+              </button>
+                    </li>
+                </ul>
             </div>
-            <div class="environments__img-card">
-                <img class="environment__img" src="images/environments.png" alt="environments" />
-            </div>
-        </div>
 
-        <!-- design -->
-        <div class="design text--center">
-            <h3 class="design__title">Remote-first. Secure by design.</h3>
-            <img class="design__img" src="images/design.png" alt="Remote-first. Secure by design." />
-            <p class="design__text">
-                You no longer need an over-powered laptop to code, Gitpod works just as smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes all source code and never stores it on insecure machines and networks.
-            </p>
-            <ul class="design__btn-card">
-                <li>
-                    <button class="design__btn">
-              <i class="fab fa-chrome"></i>Chrome Extension
-            </button>
-                </li>
-                <li>
-                    <button class="design__btn">
-              <i class="fab fa-firefox-browser"></i>Firefox Extension
-            </button>
-                </li>
-            </ul>
-        </div>
+            <!-- developers -->
+            <div class="developers text--center">
+                <h3 class="developers__title">Used by 400,000+ developers.</h3>
 
-        <!-- developers -->
-        <div class="developers text--center">
-            <h3 class="developers__title">Used by 400,000+ developers.</h3>
-
-            <div class="developers__card-row">
-                <div class="developers__card">
-                    <p class="developers__card-text">
-                        GitPod is incredibly cool. <br />
-                        <br /> In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.
-                    </p>
-                    <div class="developers__card-info">
-                        <img class="developrers__card-img" src="images/developers-2.png" alt="" />
-                        <p class="developers__img-text">
-                            <span>Ben Halpern</span> <br /> Creator and Co-founder <span>@forem</span> and
-                            <span>@ThePracticalDev</span>
+                <div class="developers__card-row">
+                    <div class="developers__card">
+                        <p class="developers__card-text">
+                            GitPod is incredibly cool. <br />
+                            <br /> In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.
                         </p>
+                        <div class="developers__card-info">
+                            <img class="developrers__card-img" src="images/developers-2.png" alt="" />
+                            <p class="developers__img-text">
+                                <span>Ben Halpern</span> <br /> Creator and Co-founder <span>@forem</span> and
+                                <span>@ThePracticalDev</span>
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="developers__card">
-                    <p class="developers__card-text">
-                        GitPod is incredibly cool. <br />
-                        <br /> In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.
-                    </p>
-                    <div class="developers__card-info">
-                        <img class="developrers__card-img" src="images/developers-2.png" alt="" />
-                        <p class="developers__img-text">
-                            <span>Ben Halpern</span> <br /> Creator and Co-founder <span>@forem</span> and
-                            <span>@ThePracticalDev</span>
+                    <div class="developers__card">
+                        <p class="developers__card-text">
+                            GitPod is incredibly cool. <br />
+                            <br /> In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.
                         </p>
+                        <div class="developers__card-info">
+                            <img class="developrers__card-img" src="images/developers-2.png" alt="" />
+                            <p class="developers__img-text">
+                                <span>Ben Halpern</span> <br /> Creator and Co-founder <span>@forem</span> and
+                                <span>@ThePracticalDev</span>
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="developers__card">
-                    <p class="developers__card-text">
-                        GitPod is incredibly cool. <br />
-                        <br /> In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.
-                    </p>
-                    <div class="developers__card-info">
-                        <img class="developrers__card-img" src="images/developers-2.png" alt="" />
-                        <p class="developers__img-text">
-                            <span>Ben Halpern</span> <br /> Creator and Co-founder <span>@forem</span> and
-                            <span>@ThePracticalDev</span>
+                    <div class="developers__card">
+                        <p class="developers__card-text">
+                            GitPod is incredibly cool. <br />
+                            <br /> In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.
                         </p>
+                        <div class="developers__card-info">
+                            <img class="developrers__card-img" src="images/developers-2.png" alt="" />
+                            <p class="developers__img-text">
+                                <span>Ben Halpern</span> <br /> Creator and Co-founder <span>@forem</span> and
+                                <span>@ThePracticalDev</span>
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="developers__card">
-                    <p class="developers__card-text">
-                        GitPod is incredibly cool. <br />
-                        <br /> In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.
-                    </p>
-                    <div class="developers__card-info">
-                        <img class="developrers__card-img" src="images/developers-2.png" alt="" />
-                        <p class="developers__img-text">
-                            <span>Ben Halpern</span> <br /> Creator and Co-founder <span>@forem</span> and
-                            <span>@ThePracticalDev</span>
+                    <div class="developers__card">
+                        <p class="developers__card-text">
+                            GitPod is incredibly cool. <br />
+                            <br /> In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.
                         </p>
+                        <div class="developers__card-info">
+                            <img class="developrers__card-img" src="images/developers-2.png" alt="" />
+                            <p class="developers__img-text">
+                                <span>Ben Halpern</span> <br /> Creator and Co-founder <span>@forem</span> and
+                                <span>@ThePracticalDev</span>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- logos -->
-        <div class="logos">
-            <img class="logos__logo" src="images/gitlab.svg" alt="" />
-            <img class="logos__logo" src="images/free.svg" alt="" />
-            <img class="logos__logo" src="images/wave.svg" alt="" />
-            <img class="logos__logo" src="images/google.svg" alt="" />
-            <img class="logos__logo" src="images/amazon.svg" alt="amazon logo" />
-            <img class="logos__logo" src="images/facebook.svg" alt="" />
-            <img class="logos__logo" src="images/uber.svg" alt="" />
-            <img class="logos__logo" src="images/openAI.svg" alt="OpenAI logo" />
-            <img class="logos__logo" src="images/intel.svg" alt="" />
-            <img class="logos__logo" src="images/theia.svg" alt="" />
-            <img class="logos__logo" src="images/code.svg" alt="" />
-            <img class="logos__logo" src="images/4geeks.svg" alt="" />
+            <!-- logos -->
+            <div class="logos">
+                <img class="logos__logo" src="images/gitlab.svg" alt="" />
+                <img class="logos__logo" src="images/free.svg" alt="" />
+                <img class="logos__logo" src="images/wave.svg" alt="" />
+                <img class="logos__logo" src="images/google.svg" alt="" />
+                <img class="logos__logo" src="images/amazon.svg" alt="amazon logo" />
+                <img class="logos__logo" src="images/facebook.svg" alt="" />
+                <img class="logos__logo" src="images/uber.svg" alt="" />
+                <img class="logos__logo" src="images/openAI.svg" alt="OpenAI logo" />
+                <img class="logos__logo" src="images/intel.svg" alt="" />
+                <img class="logos__logo" src="images/theia.svg" alt="" />
+                <img class="logos__logo" src="images/code.svg" alt="" />
+                <img class="logos__logo" src="images/4geeks.svg" alt="" />
+            </div>
+
+            <!-- repository -->
+            <div class="repository">
+                <h3 class="repository__title">Get started now</h3>
+                <div class="repository__row">
+                    <div class="repository__card">
+                        <h4 class="repository__card-title">Connect Git Repository</h4>
+                        <p class="repository__card-text">
+                            Select a Git provider to start with an existing project from any Git context.
+                        </p>
+
+                        <div class="repository__btns text--center">
+                            <button class="repository__btn">
+                  <i class="fab fa-gitlab"></i>Continue with GitLab
+                </button>
+
+                            <button class="repository__btn black">
+                  <i class="fab fa-github"></i>Continue with GitHub
+                </button>
+
+                            <button class="repository__btn blue">
+                  <i class="fab fa-bitbucket"></i>Continue with Bitbucket
+                </button>
+                        </div>
+
+                        <p class="repository__card-text">
+                            Or prefix any GitLab, GitHub or Bitbucket URL with
+                        </p>
+                    </div>
+
+                    <div class="repository__card">
+                        <h4 class="repository__card-title">
+                            Launch an example workspace
+                        </h4>
+                        <p class="repository__card-text">
+                            Dive into one of our example workspaces
+                        </p>
+
+                        <div class="repository__card-workspace">
+                            <div class="workspace__img-card">
+                                <img src="images/workspace-1.svg" alt="" />
+                                <p class="workspace__text">Node or TypeScript</p>
+                            </div>
+                            <button class="workspace__btn">Launch workspace</button>
+                        </div>
+
+                        <div class="repository__card-workspace">
+                            <div class="workspace__img-card">
+                                <img src="images/python.svg" alt="" />
+                                <p class="workspace__text">Python</p>
+                            </div>
+                            <button class="workspace__btn">Launch workspace</button>
+                        </div>
+
+                        <div class="repository__card-workspace">
+                            <div class="workspace__img-card">
+                                <img src="images/go.svg" alt="" />
+                                <p class="workspace__text">Go</p>
+                            </div>
+                            <button class="workspace__btn">Launch workspace</button>
+                        </div>
+
+                        <div class="repository__card-workspace">
+                            <div class="workspace__img-card">
+                                <img src="images/rust.svg" alt="" />
+                                <p class="workspace__text">Rust</p>
+                            </div>
+                            <button class="workspace__btn">Launch workspace</button>
+                        </div>
+
+                        <div class="repository__card-workspace">
+                            <div class="workspace__img-card">
+                                <img src="images/java.svg" alt="" />
+                                <p class="workspace__text">Java</p>
+                            </div>
+                            <button class="workspace__btn">Launch workspace</button>
+                        </div>
+
+                        <div class="repository__card-workspace">
+                            <div class="workspace__img-card">
+                                <img src="images/svelte.svg" alt="" />
+                                <p class="workspace__text">Svelte</p>
+                            </div>
+                            <button class="workspace__btn">Launch workspace</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>
