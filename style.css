@@ -362,10 +362,10 @@ header {
 
 .developers__card-row {
     display: flex;
-    flex-wrap: wrap;
     justify-self: center;
     width: 100%;
     text-align: left;
+    overflow: hidden;
 }
 
 .developers__card {
@@ -377,6 +377,8 @@ header {
     padding: 24px;
     margin-right: 2%;
     margin-bottom: 50px;
+    animation: paris 5s infinite alternate;
+    -webkit-animation: paris 12s ease-in-out infinite;
 }
 
 .developers__card-text {
@@ -411,25 +413,22 @@ header {
     color: #12100C;
 }
 
-
-/* @keyframes paris {
+@keyframes paris {
     from {
-        transform: translateX(100%);
-        width: 100%;
-        -webkit-transform: translateX(100%);
-        -moz-transform: translateX(100%);
-        -ms-transform: translateX(100%);
-        -o-transform: translateX(100%);
+        transform: translateX(335%);
+        -webkit-transform: translateX(335%);
+        -moz-transform: translateX(335%);
+        -ms-transform: translateX(335%);
+        -o-transform: translateX(335%);
     }
     to {
-        transition: translateX(0%);
-        width: 100%;
-        -webkit-transition: translateX(0%);
-        -moz-transition: translateX(0%);
-        -ms-transition: translateX(0%);
-        -o-transition: translateX(0%);
+        transform: translateX(-430%);
+        -webkit-transform: translateX(-430%);
+        -moz-transform: translateX(-430%);
+        -ms-transform: translateX(-430%);
+        -o-transform: translateX(-430%);
     }
-} */
+}
 
 
 /* ---------------------logos----------------------------------------- */
