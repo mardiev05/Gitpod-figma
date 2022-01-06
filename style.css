@@ -673,3 +673,72 @@ footer {
     font-size: 20px;
     color: #FFAD33;
 }
+
+@media screen and (max-width: 1100px) {
+    .header__link {
+        margin-left: 35px;
+    }
+    .about__title {
+        font-size: 62px;
+        line-height: 80px;
+    }
+    .about__text {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 25px;
+    }
+    .about__btn-card {
+        margin: 35px 0 15px 0;
+    }
+    .about__btn {
+        font-weight: 500;
+        padding: 10px 35px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-right: 20px;
+    }
+    .about__btn-text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .about__icons i {
+        margin-left: 10px;
+        font-size: 19px;
+    }
+    /* =====projects===== */
+    .project {
+        margin-top: 140px;
+        width: 90%;
+    }
+    .project__title {
+        font-size: 43px;
+        line-height: 64px;
+    }
+    .project__text {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    /* =====environments===== */
+    .environment__content {
+        width: 47%;
+        margin-right: 30px;
+    }
+    .environments__title {
+        font-size: 31px;
+        line-height: 40px;
+    }
+    .environments__text {
+        font-size: 21px;
+        line-height: 32px;
+        margin: 10px 0 10% 0;
+    }
+    .environments__btn {
+        font-size: 13px;
+        line-height: 16px;
+        padding: 7px 15px;
+        margin-right: 5%;
+    }
+    .environments__img-card {
+        width: 53%;
+    }
+}
