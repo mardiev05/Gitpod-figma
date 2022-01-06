@@ -784,4 +784,13 @@ footer {
         animation: paris 5s infinite alternate;
         -webkit-animation: paris 12s ease-out infinite;
     }
+    /* =====logo===== */
+    .logos {
+        width: 90%;
+    }
+    .logos__logo {
+        width: 16%;
+        padding: 10px 2%;
+        margin-bottom: 35px;
+    }
 }
